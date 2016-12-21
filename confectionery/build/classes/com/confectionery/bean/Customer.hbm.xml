@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.confectionery.bean.Customer" table="CONFECTIONERY">
+<id column="ID" name="id" type="java.lang.Integer" />
+<property column="CUSTOMER_NAME" name="customerName" type="java.lang.String" />
+<property column="ITEM" name="item" type="java.lang.String" />
+<property column="QUANTITY" name="quantity" type="java.lang.Integer" />
+<property column="PRICE_PER_ITEM" name="pricePerItem" type="java.lang.Integer" />
+<property column="TOTAL_COST" name="totalCost" type="java.lang.Integer" />
+</class>
+</hibernate-mapping>
